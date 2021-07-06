@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    list-style:none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #3c4043;
+    text-align: justify;
+}
+div.main_div{
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+h1{
+    font-size:40px;
+    
+}
+.first_letter{
+    color: rgb(243, 47, 90);
+}
+.first_content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    background-image: linear-gradient(rgb(229, 170, 143),rgb(253, 91, 62));
+}
+a.Order_Food:hover{
+    background-image: linear-gradient(rgb(143, 229, 169),rgb(31, 202, 83));
+    padding-left: 23px;
+    padding-right: 23px; 
+    padding-top: 9px; 
+    padding-bottom: 9px;
+}
+.second_main_div{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.second_content{
+    width: 50%;
+}
+.second_content img{
+    width: 44%;
+}
+.second_section{
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    padding-bottom:0px;
+}
+.Contact_Me{
+    padding-top: 30px;
+}
+.Order_Food{
+    padding-top: 10px;
+}
+.recipies{
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+third_section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.third_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.third_main_div .box{
+    position: relative;
+    width: 350px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 3px 5px 7px 5px rgb(116, 108, 108);
+    border-radius: 20px;
+}
+.third_main_div img{
+    width: 99%;
+    text-align: center;
+    height: 250px;
+}
+.third_main_div img:hover{
+    height: 90px;
+    height: 230px;
+}
