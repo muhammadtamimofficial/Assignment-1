@@ -168,3 +168,13 @@ ul {
   .social_title{
       color: rgb(156, 65, 221);
   }
+  .Brand_logo{
+      position: absolute;
+      margin-top: -24px;
+      margin-left: 70px;
+      margin-bottom: 5px;
+      font-size: 25px;
+  }
+  .brand_logo{
+    color: rgb(243, 173, 108);
+  }
