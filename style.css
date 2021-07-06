@@ -131,23 +131,21 @@ ul {
   }
   
   li {
-    float: left;
+    float:right;
+    padding-right: 50px;
+
   }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #d64dcf;
+  li a:hover{
+    background-color: #2b2e30;
   }
   .social_section{
       padding-top: 20px;
