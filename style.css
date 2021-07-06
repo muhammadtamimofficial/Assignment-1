@@ -103,12 +103,12 @@ third_section{
     height: 230px;
 }
 footer{
-    padding-top: 1px;
+    padding-top: 7px;
 }
 .footer{
     background-color: rgb(15, 15, 17);
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding-top:2px;
+    padding-bottom: 1px;
     text-align: center;
     margin-top: 30px;
 }
@@ -117,6 +117,10 @@ span.Network{
 }
 footer p{
     color: rgb(170, 164, 164);
+}
+p.copy_right{
+    color: rgb(85, 93, 95);
+    margin-top: 1px;
 }
 ul {
     list-style-type: none;
@@ -144,4 +148,22 @@ ul {
   
   .active {
     background-color: #d64dcf;
+  }
+  .social_box{
+      display: flex;
+      padding-left: 140px;
+      box-shadow: 3px 5px 7px 5px rgb(116, 108, 108);
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 40px;
+  }
+  .social_media{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+ p.social_pra{
+    color: rgb(133, 127, 127);
+  }
+  .social_tag{
+      color: rgb(156, 65, 221);
   }
