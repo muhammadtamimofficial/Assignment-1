@@ -149,6 +149,9 @@ ul {
   .active {
     background-color: #d64dcf;
   }
+  .social_section{
+      padding-top: 20px;
+  }
   .social_box{
       display: flex;
       padding-left: 140px;
@@ -164,6 +167,6 @@ ul {
  p.social_pra{
     color: rgb(133, 127, 127);
   }
-  .social_tag{
+  .social_title{
       color: rgb(156, 65, 221);
   }
